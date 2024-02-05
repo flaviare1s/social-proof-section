@@ -15,6 +15,7 @@ module.exports = {
       spacing: {
         'mobile': '374px',
         '57': '234px',
+        '102': '445px',
       },
       fontSize: {
         base: '17px',
