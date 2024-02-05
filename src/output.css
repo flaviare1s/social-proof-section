@@ -564,6 +564,10 @@ video {
   display: flex;
 }
 
+.max-h-57 {
+  max-height: 234px;
+}
+
 .max-w-mobile {
   max-width: 374px;
 }
@@ -788,5 +792,17 @@ video {
 
   .md\:leading-10 {
     line-height: 48px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:max-h-57 {
+    max-height: 234px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:max-h-57 {
+    max-height: 234px;
   }
 }
