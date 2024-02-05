@@ -24,10 +24,10 @@ module.exports = {
         '6xl': '56px',
       },
       backgroundImage: {
-        'mob-top': "url('./images/bg-pattern-top-mobile.svg')",
-        'mob-bot': "url('./images/bg-pattern-bottom-mobile.svg')",
-        'des-top': "url('/images/bg-pattern-top-desktop.svg')",
-        'des-bot': "url('/images/bg-pattern-top-desktop.svg')",
+        'mob-top': "url('../images/bg-pattern-top-mobile.svg')",
+        'mob-bot': "url('../images/bg-pattern-bottom-mobile.svg')",
+        'des-top': "url('../images/bg-pattern-top-desktop.svg')",
+        'des-bot': "url('../images/bg-pattern-top-desktop.svg')",
       },
       lineHeight: {
         '10': '48px',
