@@ -610,8 +610,36 @@ video {
   background-color: hsl(300 43% 22% / var(--tw-bg-opacity));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[po\] {
+  background-color: po;
+}
+
+.bg-\[pos\] {
+  background-color: pos;
+}
+
+.bg-\[posi\] {
+  background-color: posi;
+}
+
+.bg-\[positio\] {
+  background-color: positio;
+}
+
+.bg-\[position\] {
+  background-color: position;
+}
+
 .bg-mob-top {
   background-image: url('./images/bg-pattern-top-mobile.svg');
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .p-4 {
