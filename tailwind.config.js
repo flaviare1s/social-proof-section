@@ -16,6 +16,8 @@ module.exports = {
         'mobile': '374px',
       },
       fontSize: {
+        base: '17px',
+        lg: '19px',
         '4xl': '40px',
         '6xl': '56px',
       },
