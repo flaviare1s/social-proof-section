@@ -16,11 +16,6 @@ module.exports = {
         'mobile': '374px',
       },
       fontSize: {
-        sm: '0.8rem',
-        base: '1rem',
-        xl: '1.25rem',
-        '2xl': '1.563rem',
-        '3xl': '1.953rem',
         '4xl': '40px',
         '6xl': '56px',
       },
@@ -31,6 +26,6 @@ module.exports = {
         'des-bot': "url('/images/bg-pattern-top-desktop.svg')",
       }
     }
-  }
+  },
   plugins: [],
 }
