@@ -610,8 +610,36 @@ video {
   background-color: hsl(300 43% 22% / var(--tw-bg-opacity));
 }
 
-.bg-mob-top {
-  background-image: url('./images/bg-pattern-top-mobile.svg');
+.bg-pattern-mobile {
+  background-image: url('../images/bg-pattern-top-mobile.svg'), url('../images/bg-pattern-bottom-mobile.svg');
+}
+
+.bg-\[position\:left_top\] {
+  background-position: left top;
+}
+
+.bg-\[position\:right_bottom\] {
+  background-position: right bottom;
+}
+
+.bg-\[position\:left_top\2c \] {
+  background-position: left top,;
+}
+
+.bg-\[position\:left_top\2c _\] {
+  background-position: left top,;
+}
+
+.bg-\[position\:left_top\2c _ri\] {
+  background-position: left top, ri;
+}
+
+.bg-\[position\:left_top\2c _right\] {
+  background-position: left top, right;
+}
+
+.bg-\[position\:left_top\2c _right_bottom\] {
+  background-position: left top, right bottom;
 }
 
 .bg-no-repeat {
@@ -778,8 +806,16 @@ video {
     gap: 2rem;
   }
 
-  .md\:bg-des-top {
-    background-image: url('./images/bg-pattern-top-desktop.svg');
+  .md\:bg-pattern-desktop {
+    background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
+  }
+
+  .md\:bg-\[position\:left_top\] {
+    background-position: left top;
+  }
+
+  .md\:bg-\[position\:right_bottom\] {
+    background-position: right bottom;
   }
 
   .md\:pt-2 {
