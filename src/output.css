@@ -682,6 +682,10 @@ video {
   padding-bottom: 2rem;
 }
 
+.pb-9 {
+  padding-bottom: 2.25rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -739,8 +743,20 @@ video {
     grid-column: span 2 / span 2;
   }
 
+  .md\:row-span-2 {
+    grid-row: span 2 / span 2;
+  }
+
+  .md\:row-start-2 {
+    grid-row-start: 2;
+  }
+
   .md\:row-end-8 {
     grid-row-end: 8;
+  }
+
+  .md\:row-end-2 {
+    grid-row-end: 2;
   }
 
   .md\:ml-60 {
