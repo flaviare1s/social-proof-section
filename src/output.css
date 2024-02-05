@@ -624,6 +624,10 @@ video {
   border-radius: 9999px;
 }
 
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
 .bg-pink-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(253 242 248 / var(--tw-bg-opacity));
@@ -765,6 +769,18 @@ video {
 
   .md\:mr-60 {
     margin-right: 15rem;
+  }
+
+  .md\:ml-12 {
+    margin-left: 3rem;
+  }
+
+  .md\:ml-6 {
+    margin-left: 1.5rem;
+  }
+
+  .md\:ml-24 {
+    margin-left: 6rem;
   }
 
   .md\:flex {
