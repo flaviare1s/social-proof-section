@@ -552,6 +552,10 @@ video {
   max-width: 24rem;
 }
 
+.max-w-mobile {
+  max-width: 374px;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -591,7 +595,15 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:max-w-6xl {
+    max-width: 72rem;
+  }
+
   .md\:text-6xl {
     font-size: 56px;
+  }
+
+  .md\:leading-10 {
+    line-height: 48px;
   }
 }
